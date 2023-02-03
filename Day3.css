@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%)
+}
+
+.attribution {
+    font-size: 11px;
+    color: aliceblue;
+    text-align: center;
+    z-index: 1;
+    margin-left: 5em;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+   
+    z-index: 1;
+  }
+main{
+    text-align: left;
+    margin-left: 40em;
+    margin-top: 15em;
+    
+}
+img{
+    height: 15em;
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+.container{
+    height: 1em;
+    width: 17em;
+block-size: fit-content;
+background-color:  hsl(216, 50%, 16%);
+border-radius: 5px;
+}
+header{
+    padding: 20px;
+    font-size: 1.5em;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+.motto{
+    font-size:  0.9em;
+    padding: 20px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+
+}
+.content {
+    display: inline-flex;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+    
+    
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit;
+    font-weight: 300; 
+ 
+}
+.days{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+ 
+
+    
+    
+
+}
+
+.avatar{
+    height: 2em;
+    width: auto;
+    display: flex;
+    border: solid 2px white;
+    border-radius:20px ;
+    align-items: flex-start;
+}
+.card-creator {
+    padding-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: auto;
+
+  }
+  .first-color {
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+    font-weight: 300;
+  }
+  .second-color {
+    color: hsl(0, 0%, 100%);
+    font-family: Outfit;
+    font-weight: 300;
+  }
